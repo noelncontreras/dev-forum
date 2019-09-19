@@ -37,7 +37,7 @@ app.post("/auth/logout", AC.logoutUser);
 app.get("/api/topics", PC.topics);
 app.get("/api/posts/:topicId", PC.posts);
 app.post("/api/posts/", PC.addPost);
-app.delete("/api/posts/", PC.deletePost);
+// app.delete("/api/posts/", PC.deletePost);
 
 
 
